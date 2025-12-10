@@ -50,7 +50,7 @@ def _(plt):
 @app.cell
 def _(pd):
     # 1. Load and inspect the data
-    df = pd.read_csv("russian_passenger_air_service.csv")
+    df = pd.read_csv("data/russian_passenger_air_service.csv")
     return (df,)
 
 
